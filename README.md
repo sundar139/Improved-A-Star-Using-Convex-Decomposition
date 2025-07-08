@@ -72,7 +72,7 @@ This approach has promising implications for real-world navigation systems in:
 - Warehouse automation
 - Search and rescue missions
 
-### 🔮 Future Work:
+### Future Work:
 
 - Extend to **dynamic environments** and **real-time obstacle updates**.
 - Adaptation for **3D navigation**.
