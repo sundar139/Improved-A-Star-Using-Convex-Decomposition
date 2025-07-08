@@ -1,12 +1,12 @@
 # Improved A\* Using Convex Decomposition
 
-## 📘 Introduction
+## Introduction
 
 This project focuses on solving one of the core challenges in robotics and artificial intelligence: **efficient and reliable path planning** in complex environments. Traditional pathfinding algorithms like A\*, RRT, RRT\*, and PRM can struggle with efficiency and smoothness in environments featuring irregularly shaped and densely packed obstacles. To address this, we implemented an improved path planning pipeline that leverages **image processing, geometric decomposition, and graph-based optimization**.
 
 The main innovation lies in the integration of **map segmentation**, **convex decomposition**, **visibility graph construction**, and a **sparse A\*** algorithm enhanced with **Bezier curve smoothing**. The goal is to minimize computational load while ensuring optimal, obstacle-free, and smooth paths.
 
-## 🔍 My Insights
+## My Insights
 
 Through this project, we realized the potential of combining **image-based environment interpretation** with **geometric processing** for real-world robotics navigation. The key insights include:
 
@@ -15,7 +15,7 @@ Through this project, we realized the potential of combining **image-based envir
 - Enhancing the path with **Bezier curve smoothing** results in more realistic, navigable paths suited for real applications.
 - Our Sparse A\* significantly reduces **nodes expanded** and **computation time**, while improving **path quality**.
 
-## 🎯 Objectives and Visualizations
+## Objectives and Visualizations
 
 ### What We're Trying to Find/Visualize:
 
@@ -42,7 +42,7 @@ Autonomous systems (e.g., robots, drones, AGVs) must navigate in real-time throu
 - Works in real-time.
 - Generates paths suitable for physical systems.
 
-## 📊 Findings
+## Findings
 
 Our experimental results over multiple maps show that **our enhanced A\*** outperforms traditional methods:
 
@@ -61,7 +61,7 @@ Key takeaways:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Our project provides a **robust, scalable, and computationally efficient** solution for path planning in obstacle-rich environments. By integrating **image preprocessing, convex decomposition, visibility graphs, and a refined A\*** search with **Bezier smoothing**, we achieved superior results in terms of accuracy, efficiency, and practical applicability.
 
